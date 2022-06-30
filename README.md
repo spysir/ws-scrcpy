@@ -42,7 +42,9 @@ npm start
 To build docker image:
 
 ```shell
-docker build -t wsscrcpy:latest .
+git clone https://github.com/NetrisTV/ws-scrcpy.git
+cd ws-scrcpy
+docker build -t yesir/wsscrcpy:latest .
 ```
 To run docker image:
 
