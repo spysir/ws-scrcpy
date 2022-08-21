@@ -1,7 +1,7 @@
 FROM alpine:3.14 AS builder
 
 ADD . /ws-scrcpy
-RUN apk add --no-cache git nodejs npm python3 make g++
+RUN apk add --no-cache git nodejs npm python3 make g++ screen
 
 WORKDIR /ws-scrcpy
 RUN npm install
